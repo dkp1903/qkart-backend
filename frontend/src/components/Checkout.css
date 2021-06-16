@@ -1,0 +1,62 @@
+/* CRIO_SOLUTION_START_MODULE_UNDERSTANDING_BASICS */
+/* CRIO_SOLUTION_END_MODULE_UNDERSTANDING_BASICS */
+.checkout-shipping {
+  padding: 2em;
+  /* Reduce 70px of header and 100px of footer
+  ** Make footer display at bottom even if less content on main page
+  */
+  min-height: calc(100vh - 170px);
+}
+.checkout-container {
+  padding: 70px 0em 0em 0em;
+}
+.checkout-row {
+  display: block;
+  margin: 1.5em auto;
+}
+
+.addresses {
+  width: 100%;
+}
+.address {
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  /* height: 100%; */
+}
+.address-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  white-space: pre-wrap;
+  border: 1px solid #999;
+  width:50%;
+  max-width: 420px;
+}
+.address-text {
+  width: 100%;
+}
+
+.new-address {
+  width: 30em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+label.ant-radio-button-wrapper {
+  display: block;
+  height: calc(100% - 2.5em);
+  padding: 0px;
+}
+
+.delete-address-btn {
+  width: 100%;
+  height: 2.5em;
+}
+.checkout-cart {
+  /* height: 100vh; */
+  background: #f6f8fa;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}

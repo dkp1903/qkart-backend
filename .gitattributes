@@ -1,0 +1,78 @@
+# Root folder
+.gitattributes merge=copy-merge
+.gitignore merge=copy-merge
+ecosystem.config.json merge=copy-merge
+jest.config.js merge=copy-merge
+package.json merge=copy-merge
+package-lock.json merge=copy-merge
+pnpm-lock.yaml merge=copy-merge
+setup.sh merge=copy-merge
+
+# __CRIO__
+__CRIO__/metadata.json merge=copy-merge
+
+# data/
+data/export_qkart_products.json merge=copy-merge
+data/export_qkart_users.json merge=copy-merge
+
+# frontend/
+frontend/** merge=copy-merge
+
+# src/config/
+src/config/config.js merge=copy-merge
+src/config/logger.js merge=copy-merge
+src/config/morgan.js merge=copy-merge
+src/config/tokens.js merge=copy-merge
+
+# src/controllers/
+src/controllers/index.js merge=copy-merge
+src/controllers/product.controller.js merge=copy-merge
+
+# src/middlewares
+src/middlewares/error.js merge=copy-merge
+src/middlewares/validate.js merge=copy-merge
+
+# src/models/
+src/models/plugins/*
+src/models/index.js merge=copy-merge
+src/models/product.model.js merge=copy-merge
+
+# src/routes/
+src/routes/v1/product.route.js merge=copy-merge
+
+# src/services/
+src/services/index.js merge=copy-merge
+src/services/product.service.js merge=copy-merge
+
+# src/utils/
+src/utils/ApiError.js  merge=copy-merge
+src/utils/catchAsync.js merge=copy-merge
+src/utils/pick.js merge=copy-merge
+
+# src/validations/
+src/validations/custom.validation.js merge=copy-merge
+src/validations/index.js merge=copy-merge
+src/validations/cart.validation.js merge=copy-merge
+src/validations/product.validation.js merge=copy-merge
+
+# tests/config/
+tests/config/config.js merge=copy-merge
+
+# tests/fixtures/
+tests/fixtures/cart.fixture.js merge=copy-merge
+tests/fixtures/user.fixture.js merge=copy-merge
+tests/fixtures/token.fixture.js merge=copy-merge
+tests/fixtures/product.fixture.js merge=copy-merge
+
+# tests/integration/
+tests/integration/product.test.js merge=copy-merge
+tests/integration/user.test.js merge=copy-merge
+tests/integration/auth.test.js merge=copy-merge
+tests/integration/cart.test.js merge=copy-merge
+
+# tests/unit/
+tests/unit/auth.unit.test.js merge=copy-merge
+tests/unit/cart.unit.test.js merge=copy-merge
+tests/unit/product.unit.test.js merge=copy-merge
+tests/unit/token.unit.test.js merge=copy-merge
+tests/unit/user.unit.test.js merge=copy-merge

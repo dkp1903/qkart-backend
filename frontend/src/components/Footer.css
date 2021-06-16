@@ -1,0 +1,12 @@
+/* CRIO_SOLUTION_START_MODULE_UNDERSTANDING_BASICS */
+/* CRIO_SOLUTION_END_MODULE_UNDERSTANDING_BASICS */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #1e2833;
+  text-align: center;
+  height: 100px;
+  z-index: 2;
+}

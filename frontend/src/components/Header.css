@@ -1,0 +1,39 @@
+/* CRIO_SOLUTION_START_MODULE_UNDERSTANDING_BASICS */
+/* CRIO_SOLUTION_END_MODULE_UNDERSTANDING_BASICS */
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  width: 100%;
+  padding: 0.75em 2em;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  height: 70px;
+}
+
+.profile-image {
+  height: 30px;
+  padding-right: 0.5em;
+}
+
+.header-title {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+}
+
+.header-info {
+  padding-right: 2em;
+}
+.header-link {
+  padding: 0em 1em;
+  cursor: pointer;
+  color: #1890ff;
+}

@@ -1,0 +1,6 @@
+{"_id":{"$oid":"6005913ffaa2bffe60466952"},"name":"OnePlus 6","category":"Phones","cost":100.0,"rating":5.0,"image":"https://images.pexels.com/photos/63690/pexels-photo-63690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=126"}
+{"_id":{"$oid":"6005913ffaa2bffe60466953"},"name":"Toothbrush","category":"Health","cost":100.0,"rating":5.0,"image":"https://images.pexels.com/photos/3588229/pexels-photo-3588229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"}
+{"_id":{"$oid":"6005913ffaa2bffe60466954"},"name":"Toothpaste","category":"Health","cost":100.0,"rating":4.0,"image":"https://images.pexels.com/photos/4465125/pexels-photo-4465125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"}
+{"_id":{"$oid":"6005913ffaa2bffe60466955"},"name":"Football","category":"Sports","cost":100.0,"rating":5.0,"image":"https://images.pexels.com/photos/3074920/pexels-photo-3074920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"}
+{"_id":{"$oid":"6005913ffaa2bffe60466956"},"name":"Basketball","category":"Sports","cost":100.0,"rating":5.0,"image":"https://images.pexels.com/photos/3558072/pexels-photo-3558072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"}
+{"_id":{"$oid":"6005913ffaa2bffe60466957"},"name":"IPhone XR","category":"Phones","cost":100.0,"rating":5.0,"image":"https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"}

@@ -1,0 +1,54 @@
+/* CRIO_SOLUTION_START_MODULE_UNDERSTANDING_BASICS */
+/* CRIO_SOLUTION_END_MODULE_UNDERSTANDING_BASICS */
+.product {
+  margin: 1em 2em;
+  overflow: hidden;
+}
+
+.product .ant-card-body {
+  padding: 0;
+  width: 100%;
+}
+
+.product.ant-card-hoverable:hover {
+  border-color: #d5d5d5;
+}
+
+.product-image {
+  height: 250px;
+  width: 100%;
+}
+.product-image img {
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.product-info {
+  width: 100%;
+  text-align: left;
+}
+
+.product-info-text,
+.product-info-utility {
+  padding: 1em 1em;
+}
+
+.product-title {
+  font-size: 1.3em;
+}
+
+.product-cost {
+  font-size: 1.5em;
+}
+
+.product-rating {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+.product-category {
+  color: #909090;
+}

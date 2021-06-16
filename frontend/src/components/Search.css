@@ -1,0 +1,24 @@
+/* CRIO_SOLUTION_START_MODULE_UNDERSTANDING_BASICS */
+/* CRIO_SOLUTION_END_MODULE_UNDERSTANDING_BASICS */
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* Reduce 70px of header and 100px of footer 
+  ** Make footer display at bottom even if less content on main page
+  ** eg: when api doesn't return products
+  */
+  min-height: calc(100vh - 170px);
+  margin-top: 70px;
+  padding: 1.5em 0em;
+}
+.search-cart {
+  margin-top: 70px;
+  background: #f6f8fa;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Set width for the search bar */
+span.ant-input-search {
+  width: 30%;
+}
